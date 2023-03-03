@@ -1,0 +1,271 @@
+@media (max-width:912px) {
+    .walletbtn {
+        left: 0px;
+        top: 0px;
+        display: none;
+    }
+
+    .nav>.nav-links>a.walletbtnMob {
+        display: block;
+        background: linear-gradient(88.76deg, #44A2DF 14.79%, #746BE5 76.45%);
+        border-radius: 3px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav>.nav-links {
+        margin-left: 0px;
+        background: linear-gradient(62.76deg, #3936B3 18.55%, #1275C0 70.7%);
+    }
+
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 4px;
+
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+}
+
+@media (width:1024px) {
+    .nav>.nav-links {
+        margin-left: 150px;
+    }
+
+    .walletbtn {
+        left: 820px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0rem;
+    }
+
+    .spaceforCryptoImg img {
+        width: 500px;
+    }
+
+    .sponsorLogo {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .sponsors {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .horizontalLine {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+    .cards2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+    .sponsorLogo {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        gap: 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsors {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .horizontalLine {
+        width: 100%;
+        height: 200px;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+    .spaceforCryptoImg {
+        text-align: center;
+    }
+
+    .cryptohead {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 75px;
+        letter-spacing: 0.015em;
+    }
+
+    .cryptoPara {
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 30px;
+        /* or 150% */
+        letter-spacing: 0.01em;
+    }
+
+    .spaceforCryptoImg img {
+        width: 100%;
+    }
+
+    .mobile-space {
+        display: none;
+    }
+
+    .avenger {
+        width: 130px;
+        height: 58.15px;
+    }
+
+    .disney {
+        width: 115px;
+        height: 73px;
+    }
+
+    .polydor {
+        width: 124px;
+        height: 68.05px;
+    }
+
+    .dcomics {
+        width: 53px;
+        height: 73px;
+    }
+
+    .amazing {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .featureImg {
+        width: 100%;
+    }
+
+    .iconArrangement {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .iconHeading {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .writeUp {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .nextAfterAmazing {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    button.see {
+        text-align: center;
+        height: 30px;
+        width: 80px;
+        border-radius: 4px;
+        border: 1px solid white;
+        color: white;
+        background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+    }
+
+    button.see:hover {
+        color: white;
+        border: 1px solid white;
+    }
+
+    .cryptoImg2 {
+        width: 100%;
+    }
+
+    .portion2 {
+        text-align: center;
+    }
+
+    .desktopspace {
+        display: none;
+    }
+
+    .heading2 {
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    .body2 {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .learncry {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    #slider-container {
+        width: 100%;
+    }
+}

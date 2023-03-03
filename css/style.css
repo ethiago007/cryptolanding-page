@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+/*NAVBAR  */
+.nav {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 250px;
+}
+
+.walletbtn {
+    left: 1000px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 7px;
+    background: linear-gradient(88.76deg, #44A2DF 14.79%, #746BE5 76.45%);
+    border-radius: 3px;
+}
+
+.btnWallet {
+    width: 90px;
+    background: linear-gradient(88.76deg, #44A2DF 14.79%, #746BE5 76.45%);
+    height: 20px;
+    border: none;
+    color: white;
+}
+
+.nav>.nav-links>a.walletbtnMob {
+    display: none;
+}
+
+.walletIcon {
+    width: 19px;
+    height: 16px;
+    float: left;
+    margin-top: 5px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+
+
+/* SECTION 1 */
+.firstSection {
+    background: linear-gradient(62.76deg, #3936B3 18.55%, #1275C0 70.7%);
+}
+
+.firstSectionCoat {
+    background: linear-gradient(62.76deg, #3936B3 18.55%, #1275C0 70.7%);
+}
+
+.secondSection {
+    background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+    /* border-radius: 0px 0px 30px 30px; */
+    color: #fff;
+}
+
+.secondSectionCoat {
+    background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+    /* border-radius: 0px 0px 30px 30px; */
+    color: #fff;
+}
+
+
+
+
+.cards {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards2 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.jumbotron {
+    float: left;
+    background: #3758C5;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    color: white;
+}
+
+.cryptohead {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.015em;
+}
+
+.cryptoPara {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: 0.01em;
+}
+
+button.explore {
+    width: 120px;
+    background: linear-gradient(88.76deg, #44A2DF 14.79%, #746BE5 76.45%);
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+button.learn {
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+}
+
+button.explore:hover {
+    color: white;
+}
+
+button.learn:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.sponsors {
+    text-align: center;
+    padding: 40px;
+}
+
+.horizontalLine {
+    width: 767px;
+    height: 200px;
+}
+
+.sponsorLogo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.avenger {
+    width: 158.37px;
+    height: 58.15px;
+}
+
+.disney {
+    width: 136.1px;
+    height: 73px;
+}
+
+.polydor {
+    width: 144.76px;
+    height: 68.05px;
+}
+
+.dcomics {
+    width: 73px;
+    height: 73px;
+}
+
+.features {
+    text-align: center;
+}
+
+.amazing {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.nextAfterAmazing {
+    text-align: center;
+}
+
+.iconArrangement {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.iconHeading {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+button.see {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+}
+
+button.see:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.cryptoImg2 {
+    width: 700px;
+}
+
+.heading2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.latest {
+    text-align: center;
+}
+
+.card {
+    /* border-radius: 25px; */
+    background-color: #194093 !important; 
+    width: 300px !important;
+    max-width: 300px;
+    margin: auto;
+    font-family: arial;
+    color: white;
+    height: 300px !important;
+}
+
+.newstitle {
+ 
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.newsdate {
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+div.owl-nav {
+text-align: center;
+word-spacing: 20px;
+}
+
+div.owl-dots {
+    display: none;
+}
+
+button.owl-prev {
+    text-align: center;
+    font-size: 40px !important;
+}
+
+button.owl-next {
+    text-align: center;
+    font-size: 40px !important;
+}
+
+.seebtn {
+    text-align: center;
+}
