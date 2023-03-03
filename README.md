@@ -1,5 +1,5 @@
 # SITE NAME
-EVERYTHINGEFFY Landing Page
+A Cryptocurrency Landing Page
 
 
 # NAME OF CONTRIBUTORS
@@ -15,19 +15,19 @@ EVERYTHINGEFFY Landing Page
 * Markdown
 
 ## PURPOSE OF THE PROJECT
-A Landing page for a clothing website
+A Landing page for a cryptocurrency website
 
 ## CODE SOLUTION
 
-https://github.com/ethiago007/clothingwebsite.git
+https://github.com/ethiago007/cryptolanding-page.git
 
 
 ## KNOWN BUG
-* When you remove ONE item from the wishlist, the liked button on the page will not revert.
+NONE
 
 
 ## LIVE DISPLAY
-https://everythingeffy.netlify.app/
+
 
 
 ## CONTACT INFORMATION
