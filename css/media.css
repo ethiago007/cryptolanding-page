@@ -268,4 +268,21 @@
     #slider-container {
         width: 100%;
     }
+
+    span.mobile {
+        font-weight: 600;
+        font-size: 10px;
+        display: block;
+    }
+
+    span.desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) { 
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }   
 }

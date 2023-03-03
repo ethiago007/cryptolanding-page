@@ -4,6 +4,8 @@
 
 body {
     margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 
@@ -284,7 +286,7 @@ button.see:hover {
 
 .card {
     /* border-radius: 25px; */
-    background-color: #194093 !important; 
+    background-color: #194093 !important;
     width: 300px !important;
     max-width: 300px;
     margin: auto;
@@ -294,7 +296,7 @@ button.see:hover {
 }
 
 .newstitle {
- 
+
     font-weight: 700;
     font-size: 18px;
 }
@@ -306,8 +308,8 @@ button.see:hover {
 }
 
 div.owl-nav {
-text-align: center;
-word-spacing: 20px;
+    text-align: center;
+    word-spacing: 20px;
 }
 
 div.owl-dots {
@@ -326,4 +328,58 @@ button.owl-next {
 
 .seebtn {
     text-align: center;
+}
+
+.signupcoat {
+    text-align: center;
+}
+
+.signup {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+span.mobile {
+    display: none;
+}
+
+input {
+    border: 1px solid #FFFFFF;
+    height: 35px;
+    background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+}
+
+::placeholder {
+    font-style: italic;
+    color: #B5B5B5;
+}
+
+footer {
+    background: radial-gradient(30.67% 30.67% at 50% 50%, #0F2D73 0%, #081E5B 100%);
+}
+
+.footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.download {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.words {
+    font-weight: 700;
+    font-size: 12px;
+    color: #AEAAAA;
 }
